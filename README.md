@@ -16,7 +16,7 @@ Lower scores indicate better performance.
 
 ![chart1](https://github.com/user-attachments/assets/415bc3e7-4f8f-4af2-a2d7-3b871ee35707)
 
-| Model Name                               | Grade   |
+| Model Name                               | Score   |
 |------------------------------------------|---------|
 | o1-preview                               | 5.21    |
 | Gemini 2.0 Flash Exp                     | 5.35    |
