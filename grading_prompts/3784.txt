@@ -1,0 +1,225 @@
+You are assessing pairs of words for any potential connections or relationships between them. Your task is to analyze each pair and determine if the words share any meaningful connections, including but not limited to:
+
+Semantic relationships (synonyms, antonyms, hyponyms, etc.)
+Thematic connections (belong to same category, field, or domain)
+Phonetic similarities (rhyme, alliteration, similar sounds)
+Morphological relationships (share word roots, prefixes, or suffixes)
+Cultural or contextual associations
+Word play connections (can be used in same idioms, puns, etc.)
+Conceptual links (even if indirect or abstract)
+Part of common phrases or collocations
+
+For each pair of words, provide:
+A precise (but integer) score from 0 (no discernible connection) to 10 (strong, obvious connection).
+
+Below are the word pairs to evaluate. Each line contains two words separated by '|':
+
+1. crayon | homegrown
+2. petal | purblind
+3. inborn | trumpet
+4. keystone | run
+5. chaos | chuckle
+6. financially-astute | imbue
+7. chorus | cluster
+8. crouch | pod
+9. bifurcate | bravado
+10. establish | illumination
+11. nail | perceive
+12. rage | sock
+13. meadowland | pond
+14. buoyant | hook
+15. defect | garden
+16. phantom | potency
+17. offshoot | rigid
+18. lute | sailing
+19. bilingual | miracle
+20. effect | yuck
+21. abnormal | spacecraft
+22. extractable | lathe
+23. homage | husk
+24. laminate | leaven
+25. emollient | hand
+26. breeze | broom
+27. vial | worth
+28. chaparral | welt
+29. chromatic | velcro
+30. night | opalescent
+31. holistically-designed | piccolo
+32. denizen | interior-friendly
+33. elder | emerge
+34. dispatcher | groan
+35. pulley | realization
+36. renounce | repast
+37. coordinates | lookout
+38. nettle | telephone
+39. deciduous | jet
+40. burgeoning | stagehand
+41. amnesia | resurgence
+42. waddle | wave
+43. atlas | nuncupative
+44. ligament | lilac
+45. handshake | nemesis
+46. game | restive
+47. fundamentals | lunatic
+48. annotated | martyr
+49. mamluk | quagmire
+50. desultory | walkway
+51. nebula | reprehensible
+52. conductivity | dizzy
+53. expertise-laden | wheat
+54. initiative | miracle
+55. assertion | leap
+56. esplanade | polarity
+57. birdsong | notary
+58. drop | nest
+59. dowry | ouroboros
+60. feature-rich | ludicrously
+61. dampen | industrious
+62. housekeeper | overflow
+63. insect | interpret
+64. kismet | kurta
+65. chameleon | willow
+66. approve | vesuvius
+67. cableway | grumble
+68. deflect | exponential
+69. anyone | lounge
+70. annoy | tabletop
+71. oakwood | wheal
+72. anklet | loveliness
+73. design | mist
+74. hydroponics | nomad
+75. habitation | vellum
+76. desist | specialty
+77. bloom | lingo
+78. jolly | rwanda
+79. paprika | precision
+80. fishing | lewd
+81. landscape-friendly | nonplus
+82. boldly | extractable
+83. interlude | irony
+84. enchanter | nerve
+85. carbide | moondust
+86. caribbean | viable
+87. booth | nougat
+88. paperback | weedy
+89. optimum | ornament
+90. camber | chagrin
+91. hydra | omniscient
+92. cairn | chisel
+93. dangle | georgian
+94. ramshackle | runt
+95. microscope | mottle
+96. healthiest | outgrow
+97. erosion | fair
+98. dim | measure
+99. combust | goal-oriented
+100. magic | mimic
+101. prototype | shipwreck
+102. head | metric
+103. activist | refrain
+104. bestial | burglar
+105. house | peccary
+106. oasis | selection
+107. irrigation | refresh
+108. airship | influx
+109. case | vesper
+110. educated | zymic
+111. husband | profusion
+112. effectiveness | nihilism
+113. offhand | opaque
+114. heredity | meteorite
+115. ascent | submarine
+116. impromptu | insular
+117. ninja | pillow
+118. chapter | foxglove
+119. ballad | pushback
+120. impel | sunscreen
+121. hoover | robot
+122. alchemy | assert
+123. canvas | chariot
+124. comet | quixotism
+125. dither | paladin
+126. grumble | projection
+127. conductivity | deter
+128. organization | rattle
+129. bovine | magic
+130. forever | rodent
+131. cleaver | vibration
+132. dandelion | pedigree
+133. remnant | ricochet
+134. mantra | seleucid
+135. outcast | zengid
+136. pelt | prance
+137. agent | band
+138. dichotomy | drudgery
+139. box | zest
+140. emit | mitanni
+141. krewe | shelf
+142. bead | indeed
+143. isolate | nectar
+144. elmwood | kempt
+145. heredity | minimal
+146. bright | path
+147. kangaroo | unicorn
+148. extraordinary | giant
+149. blunder | buckle
+150. oblong | operator
+151. null | zestful
+152. barcode | fuel
+153. bewildered | bygone
+154. adamant | sphinx
+155. bobbin | mark
+156. change | thankfulness
+157. earnest | equate
+158. lacerate | lofty
+159. evaporate | rhetoric
+160. hairpin | morose
+161. olympics | pervade
+162. downfall | neap
+163. malady | mine
+164. core | quibble
+165. achievement | incorrigible
+166. depiction | miniature
+167. measure | trailblazer
+168. businessman | reimburse
+169. aerodynamic | turbulence
+170. moirai | nonchalance
+171. aboard | steinway
+172. parquet | purpose
+173. refrain | relish
+174. pervade | shipwreck
+175. keg | kimono
+176. lithograph | ward
+177. bath | sparta
+178. cyan | legitimate
+179. aptitude | ricochet
+180. naval | navel
+181. increase | ptolemaic
+182. petrichor | sideflip
+183. plush | table
+184. spectrum | zirconia
+185. denigrate | maritime
+186. rash | stygian
+187. adaptation | discover
+188. narrate | nostril
+189. flux | vandal
+190. concoct | ride
+191. rejuvenate | reprimand
+192. mange | worth
+193. rebuff | reflex
+194. confrontational | gaze
+195. emotion | vogue
+196. pinwheel | riposte
+197. desert | luminary
+198. hazard | hostel
+199. emberglow | yoga
+200. cavalcade | ember
+
+
+Format your response as:
+1. [score]
+2. [score]
+3. [score]
+etc.
+
+Don't output anything extra before or after required output. You must fully complete grading and provide a value for each pair. You may not skip any pair. Don't provide any explanations.

@@ -1,0 +1,225 @@
+You are assessing pairs of words for any potential connections or relationships between them. Your task is to analyze each pair and determine if the words share any meaningful connections, including but not limited to:
+
+Semantic relationships (synonyms, antonyms, hyponyms, etc.)
+Thematic connections (belong to same category, field, or domain)
+Phonetic similarities (rhyme, alliteration, similar sounds)
+Morphological relationships (share word roots, prefixes, or suffixes)
+Cultural or contextual associations
+Word play connections (can be used in same idioms, puns, etc.)
+Conceptual links (even if indirect or abstract)
+Part of common phrases or collocations
+
+For each pair of words, provide:
+A precise (but integer) score from 0 (no discernible connection) to 10 (strong, obvious connection).
+
+Below are the word pairs to evaluate. Each line contains two words separated by '|':
+
+1. olio | ornate
+2. moon | yvette
+3. assertion | isthmus
+4. incredible | macromolecule
+5. rustle | synthesizer
+6. dual-purpose | nip
+7. insect | inter
+8. dynamo | yoga
+9. canvas | programming
+10. agile | staying
+11. chime | crater
+12. quinoa | species
+13. control | ragged
+14. helix | hysteresis
+15. academic | withdrawn
+16. deepwater | equilibrium
+17. foam | wagon
+18. denser | pekinese
+19. limit-free | magnetism
+20. bathe | tree
+21. beach | peanut
+22. ball | capable
+23. nomadic | nylon
+24. fluorescent | marble
+25. barrel | bludgeon
+26. chair | ward
+27. bilingualism | waterfall
+28. cadence | camouflage
+29. bibliophile | ductile
+30. exhibit | keyboard
+31. accent | hurrian
+32. revile | ribald
+33. cream | velcro
+34. killjoy | somalia
+35. barley | butter
+36. liminal | war
+37. defect | selection
+38. jangle | ripple
+39. warble | warily
+40. caretaker | esplanade
+41. mechanics | neurotic
+42. cafe | oyster
+43. cheese | cupcake
+44. paucity | service
+45. puerile | zengid
+46. ball | casual
+47. nightfall | nullify
+48. rectify | remiss
+49. landscape-friendly | nausea
+50. debater | dwindle
+51. install | inventor
+52. east | ember
+53. drove | maritime
+54. portion | respect
+55. abandon | hook
+56. compose | retort
+57. surge | wrest
+58. deposit | disinfect
+59. oven | purchase
+60. opaque | swimming
+61. decree | legend
+62. lithe | seahorse
+63. mesosphere | relic
+64. dancing | orphan
+65. buzzard | fastball
+66. besiege | ring
+67. obstruct | omitted
+68. atlas | outwit
+69. clover | inheritance
+70. abrupt | turbulence
+71. dovetail | illumination
+72. cobweb | sky
+73. test | wallow
+74. ishtar | opus
+75. edict | error
+76. footprint | loom
+77. keyboard | kismet
+78. buckshot | opportunistic
+79. pin | quaff
+80. diaper | rail
+81. dagger | marketplace
+82. vulture | zenith
+83. buzzing | hotshot
+84. bronze | yawning
+85. card | mingle
+86. aerodynamic | kingmaker
+87. infer | ridgeway
+88. hating | nitrogen
+89. languor | lecturer
+90. far-reaching | placid
+91. nut | sky
+92. ichor | ivory
+93. age | cement
+94. mycenae | weave
+95. despair | group
+96. chisel | coffret
+97. barnacle | france
+98. activate | intact
+99. bulb | deference
+100. knobby | photovoltaics
+101. chalk | flag
+102. east | long-term
+103. chocolate | driftwood
+104. exuberant | hierarchy
+105. ideal | looming
+106. athlete | spacecraft
+107. neuron | nostalgia
+108. bias | biopsy
+109. nephew | nib
+110. card | quirk
+111. ileum | integrity
+112. roster | uroboros
+113. dewdrop | parchment
+114. color | oasis
+115. desert | khanate
+116. jets | palette
+117. neat | pattern
+118. broadway | meringue
+119. lift | rumble
+120. proxy | ramble
+121. coffret | crux
+122. physics | recant
+123. bank | barometer
+124. chandelier | nestle
+125. lift | prudent
+126. noxious | weight
+127. oboe | oligarch
+128. lynx | mar
+129. prairie | yuppie
+130. onion | zamboni
+131. sign | void
+132. manuscript | orifice
+133. assimilated | crinkle
+134. aberrant | collider
+135. dampen | stronghold
+136. abnormality | width
+137. cello | presence
+138. antenna | historic
+139. helpful | marzipan
+140. backpack | yaffle
+141. movie | ordinance
+142. bluff | footprint
+143. decentralized | manuscript
+144. liberty | templar
+145. cosmology | lace
+146. birch | expedited
+147. chairman | ingot
+148. poetry | slide
+149. bumblebee | dock
+150. inure | shoe
+151. liberty | prevent
+152. logroll | vicar
+153. airplane | energy
+154. electronic | lichen
+155. blasphemy | efficiency
+156. interest | micro-focused
+157. black | mizzle
+158. schismogenesis | xyloid
+159. neutron | stage
+160. conscience | rarely
+161. pyramid | relentless
+162. bellwether | mirthless
+163. kilowatt | minimized
+164. facilitation | pelt
+165. educated | mortal
+166. dauntless | molecule
+167. excellence-driven | powder
+168. beat | xeris
+169. crimp | peacemaker
+170. xerox | yarn
+171. midge | mysticism
+172. obedient | onyx
+173. endoskeleton | igloo
+174. intrepid | pillow
+175. profile | puppet
+176. compensate | nab
+177. it | optimism
+178. eliminated | indubitable
+179. rwanda | xyloid
+180. outsell | point
+181. pungency | reel
+182. engage | going
+183. bungle | stormsurge
+184. dehydration | xenial
+185. lens | official
+186. delay | demolish
+187. metamorphosis | molality
+188. prairie | quiver
+189. abject | silhouette
+190. coffeehouse | crusade
+191. offering | operative
+192. awaken | intention
+193. bedlam | complexified
+194. factor | residue
+195. blueberry | zone
+196. paperback | wriggle
+197. beanstalk | kale
+198. previous | puzzle
+199. candid | cashew
+200. inert | inhabit
+
+
+Format your response as:
+1. [score]
+2. [score]
+3. [score]
+etc.
+
+Don't output anything extra before or after required output. You must fully complete grading and provide a value for each pair. You may not skip any pair. Don't provide any explanations.

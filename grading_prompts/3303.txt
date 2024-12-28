@@ -1,0 +1,225 @@
+You are assessing pairs of words for any potential connections or relationships between them. Your task is to analyze each pair and determine if the words share any meaningful connections, including but not limited to:
+
+Semantic relationships (synonyms, antonyms, hyponyms, etc.)
+Thematic connections (belong to same category, field, or domain)
+Phonetic similarities (rhyme, alliteration, similar sounds)
+Morphological relationships (share word roots, prefixes, or suffixes)
+Cultural or contextual associations
+Word play connections (can be used in same idioms, puns, etc.)
+Conceptual links (even if indirect or abstract)
+Part of common phrases or collocations
+
+For each pair of words, provide:
+A precise (but integer) score from 0 (no discernible connection) to 10 (strong, obvious connection).
+
+Below are the word pairs to evaluate. Each line contains two words separated by '|':
+
+1. pencil | prince
+2. beautifully | valiant
+3. duffel | pixel
+4. beat | quill
+5. depiction | melting
+6. plenitude | young
+7. investment-worthy | occult
+8. eerie | favorably-viewed
+9. offshoot | swimming
+10. cravat | fireproof
+11. prairie | yodeling
+12. mirth | vibrancy
+13. ladder | pyrex
+14. cat | druid
+15. arrayed | helix
+16. caprice | creature
+17. clarity | corresponding
+18. polka | ring
+19. average | lachrymosity
+20. generator | zinc
+21. fragility | laughter
+22. icy | robotics
+23. logarithm | war
+24. ability | waggle
+25. astound | regulation
+26. brick | otiose
+27. bank | output
+28. abortive | blacksmith
+29. entrepreneur | obelisk
+30. definition | zither
+31. beleaguered | bifurcation
+32. decentralized | define
+33. downhill | polygon
+34. animated | decline
+35. pegasus | phoenix
+36. krill | plant
+37. legitimate | lexicon
+38. igloo | inveigh
+39. oak | opera
+40. daze | desertion
+41. bitter | consistency-driven
+42. malleable | maternal
+43. bellwether | festivity
+44. absolve | abuse
+45. eight | floodplain
+46. card | point
+47. armada | hymnody
+48. bargaining | despot
+49. incoherent | inferno
+50. adjacency | yamaha
+51. query | zodiac
+52. lava | leaflet
+53. beach | refund
+54. acceptable | wormhole
+55. chola | nymph
+56. appeal | focal
+57. caliper | chivalry
+58. embroider | house
+59. deduce | delta
+60. bundle | buttercream
+61. chimney | wind
+62. yahoo | yours
+63. kibble | whalewatcher
+64. cross-pollination | manor
+65. emetic | rhetoric
+66. hearing | nocturnally
+67. yawning | yonder
+68. nourish | vegas
+69. avenue | drape
+70. carve | foxglove
+71. beaker | fitzgerald
+72. attachable | kickback
+73. deplete | hydrant
+74. bazaar | note
+75. muck | yogurt
+76. meadowland | podium
+77. achievement | jut
+78. loathe | logic
+79. ayyubid | yikes
+80. healthy | mystery
+81. cider | tree
+82. liberated | outpost
+83. cameo | mastery
+84. jolt | sign
+85. culture | curl
+86. gate | obsidian
+87. believe | corps
+88. kindhearted | quibble
+89. cage | dockside
+90. rash | rather
+91. cactus | carton
+92. basalt | medically-necessary
+93. lipstick | vindicate
+94. cleft | planning
+95. modulation | yap
+96. grovel | news
+97. incongruous | informative
+98. beg | gateway-ready
+99. medal | ox
+100. canister | cordial
+101. lecherous | yield
+102. beach | template
+103. avert | yearly
+104. friction | loquacious
+105. insecticide | mystery
+106. daffodil | overboard
+107. lavender | legal
+108. nourish | trail
+109. manor | mimic
+110. calendar | curtail
+111. defrost | management
+112. builder | obviate
+113. parch | respect
+114. discreet | eclipse
+115. yammer | yaupon
+116. instructor | offshoot
+117. dawdle | midnight
+118. band | improvise
+119. nerve | nick
+120. gravitas | zestful
+121. medal | motorist
+122. film | reform
+123. neurosis | newel
+124. flowerpot | reward
+125. decor | deploy
+126. deforest | dividends
+127. chamber | curious
+128. dessert | seat
+129. regulate | snowcap
+130. nimbleness | sundial
+131. lop | port
+132. eyewear | rigour
+133. lamp | monarch
+134. energize | fastback
+135. billow | blitz
+136. xianbei | zero
+137. dart | detain
+138. chevron | uplift
+139. knack | kraal
+140. bead | juice
+141. indent | stone
+142. healthy | myopia
+143. device | linkedin
+144. market | wrap
+145. art | century
+146. panoply | zengid
+147. factory | perfume
+148. brightleaf | weft
+149. deli | entice
+150. elude | facade
+151. kite | market-tested
+152. manifold | mingle
+153. giant | rift
+154. binder | fastball
+155. calypso | crescendo
+156. muscular | vacationing
+157. narcotic | taxonomy
+158. chipper | effusion
+159. pyramid | raise
+160. plumb | ridgeback
+161. porous | stockade
+162. abeyance | documented
+163. deliver | embroider
+164. melancholy | mount
+165. impresario | interstice
+166. apothecary | carat
+167. leverage | lurking
+168. lift | mellow
+169. informal | lakeside
+170. droop | twin
+171. cola | reverberate
+172. rapacious | revulsion
+173. microchip | pineapple
+174. outlay | ward
+175. hogwarts | offspring
+176. pocket | poncho
+177. cheetah | cherry
+178. marvelous | niche
+179. energize | top
+180. observe | refurbishment
+181. issue | lakeside
+182. allegorical | pyre
+183. obtain | outer
+184. chatter | organza
+185. gatsby | haven
+186. organization | ostensible
+187. armor | cupcake
+188. oath | okay
+189. health-conscious | pumpkin
+190. remand | roulette
+191. deflate | seat
+192. factor | react
+193. multitude | recital
+194. hydration | nib
+195. kettle | woe
+196. dexterous | disperse
+197. book | fitzgerald
+198. bistro | bramble
+199. bell | pumpkin
+200. aggregated | pliable
+
+
+Format your response as:
+1. [score]
+2. [score]
+3. [score]
+etc.
+
+Don't output anything extra before or after required output. You must fully complete grading and provide a value for each pair. You may not skip any pair. Don't provide any explanations.

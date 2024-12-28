@@ -1,0 +1,225 @@
+You are assessing pairs of words for any potential connections or relationships between them. Your task is to analyze each pair and determine if the words share any meaningful connections, including but not limited to:
+
+Semantic relationships (synonyms, antonyms, hyponyms, etc.)
+Thematic connections (belong to same category, field, or domain)
+Phonetic similarities (rhyme, alliteration, similar sounds)
+Morphological relationships (share word roots, prefixes, or suffixes)
+Cultural or contextual associations
+Word play connections (can be used in same idioms, puns, etc.)
+Conceptual links (even if indirect or abstract)
+Part of common phrases or collocations
+
+For each pair of words, provide:
+A precise (but integer) score from 0 (no discernible connection) to 10 (strong, obvious connection).
+
+Below are the word pairs to evaluate. Each line contains two words separated by '|':
+
+1. bound | bureau
+2. boundary | gadget
+3. bountiful | peak
+4. mediate | saxophone
+5. anthem | mosaic
+6. denizen | destitute
+7. cavity | extraction
+8. canine | capsize
+9. incise | practicality
+10. dynasty | incubate
+11. kaleidoscopic | knowledge
+12. olympics | placidly
+13. feature | legible
+14. facebook | liminality
+15. ceramic | fragmentation
+16. canopy | warble
+17. dally | mariner
+18. yacht | young
+19. bibliophile | butcher
+20. insist | install
+21. empire | phoenix
+22. novelty | null
+23. netting | spectroscopy
+24. balcony | baritone
+25. operatic | sparrowhawk
+26. gamified | recluse
+27. reflector | resonant
+28. grandmother | nebula
+29. ball | lachrymosity
+30. ending | infer
+31. bumblebee | growth
+32. biologist | ruminant
+33. attest | truth
+34. bandage | bay
+35. electrified | mystic
+36. pensive | plod
+37. abide | amulet
+38. eight | sunburst
+39. astral | canvas
+40. celebratory | prepare
+41. croquet | wreath
+42. navigate | neon
+43. albatross | street
+44. obituary | trajectory
+45. lissome | watershed
+46. antic | aurora
+47. inkling | interlude
+48. radiowave | yarmulke
+49. yesteryear | young
+50. rusty | superiority
+51. recoil | regale
+52. carton | chore
+53. cleft | crux
+54. loathe | river
+55. inception | loophole
+56. knob | zenpath
+57. lecturer | lobster
+58. habitation | reveal
+59. expand | hovel
+60. astrobiology | parvenu
+61. jargonized | ripple
+62. caress | catastrophic
+63. pancakes | reflect
+64. acceptance | docket
+65. coat | necklace
+66. jade | monkey
+67. inhibit | masterful
+68. palette | street
+69. betoken | mustang
+70. manipulate | marsh
+71. eccentric | enrapture
+72. opaque | plastic
+73. billionaire | echo
+74. bog | tambourine
+75. agitation | demure
+76. duvet | emulsion
+77. pollution | table
+78. kushan | rarely
+79. bizarre | zenith
+80. canal | cardinal
+81. humane | humidity
+82. mirthlesses | moth
+83. oleander | onion
+84. assassin | nightcap
+85. panda | scythian
+86. birthmark | wacky
+87. color | holster
+88. overrun | shot
+89. point | yolky
+90. perjury | pounce
+91. dent | dull
+92. adipose | zengid
+93. camera | exasperate
+94. goose | wanton
+95. lift | phantasmagoric
+96. activate | duffel
+97. brush | offering
+98. classification | pierce
+99. diver | flexibility
+100. exert | journey
+101. age | lure
+102. sunshine | wryly
+103. endear | melodrama
+104. xebec | xylem
+105. food | yawp
+106. heuristic | yarn
+107. joust | quad
+108. pamphlet | porcelain
+109. chamber | introspection
+110. ecotourism | genteel
+111. confine | cubic
+112. chagatai | geode
+113. charge | cheap
+114. atmosphere | quorum
+115. agree | oleander
+116. formation | nerve
+117. calculator | now
+118. resemble | studying
+119. dregs | nutrition
+120. quiver | xianbei
+121. alibi | viscosity
+122. compounds | postpone
+123. wharfman | whirlpool
+124. chipper | enact
+125. ebony | erupt
+126. adapt | ray-ban
+127. catacomb | clover
+128. dehydration | normal
+129. brief | puzzlepiece
+130. blower | raspberry
+131. maria | redundant
+132. hunting | mirths
+133. masquerade | running
+134. canopy | woody
+135. drive | plume
+136. icon | inquiry
+137. cat | melee
+138. overact | print
+139. over | recital
+140. pioneer | precipice
+141. definitive | natal
+142. mystic | office
+143. nightwatch | rebuild
+144. brotherhood | dismay
+145. antecedent | precise
+146. redundant | resonate
+147. altercation | kingmaker
+148. dandelion | end
+149. infuse | intensity
+150. whim | wound
+151. composition | pacify
+152. berserker | room
+153. dabble | deceleration
+154. bookkeeper | okra
+155. marauder | mischievous
+156. enhance | merit-based
+157. kinesiology | knapsack
+158. information | ribbon
+159. bovine | dictation
+160. barracuda | kiln
+161. cicada | shoes
+162. kilt | theory
+163. landscape | nook
+164. angular | wagon
+165. beat | imply
+166. beach | impart
+167. mound | pod
+168. conservationist | rate
+169. compose | developmental
+170. cardiovascular | knight
+171. particle | pillow
+172. baroque | marrow
+173. flashback | impel
+174. custom | festival
+175. camp | yawn
+176. decision | zeal
+177. wharf | wistful
+178. animate | chopsticks
+179. disguise | gravitation
+180. canary | mechanics
+181. expertise | pungent
+182. mirror | yoking
+183. annoy | gingham
+184. deign | docile
+185. contributing | refuge
+186. box | equal
+187. bank | organic
+188. breast | pushback
+189. ascension | loft
+190. fire | rally
+191. altercation | axiom
+192. crochet | sewing
+193. adage | documented
+194. accountability | wink
+195. either | prosecutor
+196. legume | lure
+197. locomotive | pathway
+198. cupcake | cycle
+199. dichotomy | maneuverable
+200. aquifer | beetle
+
+
+Format your response as:
+1. [score]
+2. [score]
+3. [score]
+etc.
+
+Don't output anything extra before or after required output. You must fully complete grading and provide a value for each pair. You may not skip any pair. Don't provide any explanations.
