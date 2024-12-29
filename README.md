@@ -7,36 +7,38 @@ Open-ended divergent thinking tests, which ask individuals to list words as dist
 - Each LLM generates 25 words that are as distinct as possible from one another and from the initial 50 words, with each word beginning with a specified letter
 - The first letters used are: a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, w, y, and one of v, x, z, j, or q.
 - Each LLM is prompted 88 times to generate 25 words, resulting in a total of 2,200 words generated per LLM.
-- Each pair of potentially related words (1,209,932 unique combinations) is evaluated by four LLMs: GPT-4o, Claude 1.5 Sonnet (2024-10-22), Grok 2 (12-12), and Gemini 1.5 Pro on a of scale 0 to 10. For each generated word, the average LLM score of maximum relatedness between this word and other words was used.
+- Each pair of potentially related words (1,209,932 unique combinations) is evaluated by four LLMs: GPT-4o, Claude 1.5 Sonnet (2024-10-22), Grok 2 (12-12), and Gemini 1.5 Pro on a of scale 0 to 10. For each generated word, the average LLM score of minimum divergences between this word and other words was used.
 - Each generated word is also evaluated by these four LLMs to determine how well it follows the rules (e.g., no proper nouns, real English words, no hyphens).
 
 ## Results
 
-Lower scores indicate better performance.
+Higher scores indicate better performance.
 
-![chart1](https://github.com/user-attachments/assets/415bc3e7-4f8f-4af2-a2d7-3b871ee35707)
+![scores](https://github.com/user-attachments/assets/dfe551f6-374c-422e-8585-6fe32a8cf9fc)
 
-| Model Name                               | Score   |
-|------------------------------------------|---------|
-| o1-preview                               | 5.21    |
-| Gemini 2.0 Flash Exp                     | 5.35    |
-| Claude 3 Opus                            | 5.53    |
-| Grok 2 12-12                             | 5.55    |
-| Llama 3.3 70B                            | 5.56    |
-| Gemini 2.0 Flash Thinking Exp            | 5.59    |
-| Claude 3.5 Sonnet 2024-10-22             | 5.59    |
-| Gemma 2 27B                              | 5.63    |
-| o1-mini                                  | 5.80    |
-| Claude 3.5 Haiku                         | 5.84    |
-| Mistral Large 2                          | 5.86    |
-| GPT-4o mini                              | 5.88    |
-| Gemini 1.5 Flash                         | 5.91    |
-| Gemini 1.5 Pro (Sept)                    | 5.93    |
-| Claude 3 Haiku                           | 6.02    |
-| Qwen 2.5 72B                             | 6.11    |
-| Llama 3.1 405B                           | 6.17    |
-| DeepSeek-V2.5                            | 6.24    |
-| GPT-4o                                   | 6.27    |
+
+| Model                           | Score |
+|---------------------------------|-------|
+| o1-preview                      | 4.79  |
+| Gemini 2.0 Flash Exp            | 4.65  |
+| Claude 3 Opus                   | 4.47  |
+| Grok 2 12-12                    | 4.45  |
+| Llama 3.3 70B                   | 4.44  |
+| Gemini 2.0 Flash Thinking Exp   | 4.41  |
+| Claude 3.5 Sonnet 2024-10-22    | 4.41  |
+| Gemma 2 27B                     | 4.37  |
+| o1-mini                         | 4.20  |
+| Claude 3.5 Haiku                | 4.16  |
+| Mistral Large 2                 | 4.14  |
+| GPT-4o mini                     | 4.12  |
+| Gemini 1.5 Flash                | 4.09  |
+| Gemini 1.5 Pro (Sept)           | 4.07  |
+| Claude 3 Haiku                  | 3.98  |
+| Qwen 2.5 72B                    | 3.89  |
+| Llama 3.1 405B                  | 3.83  |
+| DeepSeek-V2.5                   | 3.76  |
+| GPT-4o                          | 3.73  |
+
 
 The table below highlights the percentage of repeated words, which helps explain GPT-4o's poor performance:
 
