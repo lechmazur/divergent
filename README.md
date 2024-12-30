@@ -16,7 +16,7 @@ Higher scores indicate better performance.
 
 ![scores](https://github.com/user-attachments/assets/dfe551f6-374c-422e-8585-6fe32a8cf9fc)
 
-For completeness, a chart with the Y-axis starting at 0 is also been provided:
+For completeness, a chart with the Y-axis starting at 0 is also provided:
 
 ![graph-0](https://github.com/user-attachments/assets/8ee752b7-92ca-42bc-bb94-b0f278626a89)
 
