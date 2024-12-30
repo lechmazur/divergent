@@ -7,7 +7,7 @@ Open-ended divergent thinking tests, which ask individuals to list words as dist
 - Each LLM generates 25 words that are as distinct as possible from one another and from the initial 50 words, with each word beginning with a specified letter
 - The first letters used are: a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, w, y, and one of v, x, z, j, or q.
 - Each LLM is prompted 88 times to generate 25 words, resulting in a total of 2,200 words generated per LLM.
-- Each pair of potentially related words (1,209,932 unique combinations) is evaluated by four LLMs: GPT-4o, Claude 1.5 Sonnet (2024-10-22), Grok 2 (12-12), and Gemini 1.5 Pro on a of scale 0 to 10. For each generated word, the average LLM score of minimum divergences between this word and other words was used.
+- Each pair of potentially related words (1,209,932 unique combinations) is evaluated by four LLMs: GPT-4o, Claude 3.5 Sonnet (2024-10-22), Grok 2 (12-12), and Gemini 1.5 Pro on a of scale 0 to 10. For each generated word, the average LLM score of minimum divergences between this word and other words was used.
 - Each generated word is also evaluated by these four LLMs to determine how well it follows the rules (e.g., no proper nouns, real English words, no hyphens).
 
 ## Results
