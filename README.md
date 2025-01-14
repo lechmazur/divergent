@@ -74,5 +74,5 @@ The table below highlights the percentage of repeated words, which helps explain
 ## Updates and Contact
 
 - Follow [@lechmazur](https://x.com/LechMazur) on X (Twitter) for updates
-- Also check out the [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing), [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/), [NYT Connections Benchmark](https://github.com/lechmazur/nyt-connections/), [LLM Deceptiveness and Gullibility Benchmark](https://github.com/lechmazur/deception/)
+- Also check out the [LLM Thematic Generalization Benchmark](https://github.com/lechmazur/generalization), [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing), [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/), [NYT Connections Benchmark](https://github.com/lechmazur/nyt-connections/), [LLM Deceptiveness and Gullibility Benchmark](https://github.com/lechmazur/deception/)
 
