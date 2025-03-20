@@ -2,6 +2,7 @@
 
 Open-ended divergent thinking tests, which ask individuals to list words as distinct from one another as possible, are often used to evaluate originality and fluency. This benchmark presents a more challenging variation of the divergent thinking test, where LLMs are provided with an initial list of 50 random words. The task requires the LLMs to generate 25 words that are not only highly distinct from each other but also unrelated to the initial 50 words, with the additional constraint that each word must start with a specified letter.
 
+---
 ## Method
 
 - Each LLM generates 25 words that are as distinct as possible from one another and from the initial 50 words, with each word beginning with a specified letter
@@ -10,6 +11,7 @@ Open-ended divergent thinking tests, which ask individuals to list words as dist
 - Each pair of potentially related words (1,209,932 unique combinations) is evaluated by four LLMs: GPT-4o, Claude 3.5 Sonnet (2024-10-22), Grok 2 (12-12), and Gemini 1.5 Pro on a of scale 0 to 10. For each generated word, the average LLM score of minimum divergences between this word and other words was used.
 - Each generated word is also evaluated by these four LLMs to determine how well it follows the rules (e.g., no proper nouns, real English words, no hyphens).
 
+---
 ## Results
 
 Higher scores indicate better performance.
@@ -71,8 +73,22 @@ The table below highlights the percentage of repeated words, which helps explain
 | GPT-4o                                   | 23.68%    |
 | DeepSeek-V2.5                            | 25.09%    |
 
-## Updates and Contact
+---
+## Other multi-agent benchmarks
+- [Public Goods Game (PGG) Benchmark: Contribute & Punish](https://github.com/lechmazur/pgg_bench/)
+- [Elimination Game: Social Reasoning and Deception in Multi-Agent LLMs](https://github.com/lechmazur/elimination_game/)
+- [Step Race: Collaboration vs. Misdirection Under Pressure](https://github.com/lechmazur/step_game/)
+
+## Other benchmarks
+- [Extended NYT Connections](https://github.com/lechmazur/nyt-connections/)
+- [LLM Thematic Generalization Benchmark](https://github.com/lechmazur/generalization/)
+- [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing/)
+- [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/)
+- [LLM Deceptiveness and Gullibility](https://github.com/lechmazur/deception/)
+
+---
+## Updates 
 
 - Follow [@lechmazur](https://x.com/LechMazur) on X (Twitter) for updates
-- Also check out the [Multi-Agent Elimination Game LLM Benchmark](https://github.com/lechmazur/elimination_game/), [LLM Public Goods Game](https://github.com/lechmazur/goods), [LLM Step Game](https://github.com/lechmazur/step_game), [LLM Thematic Generalization Benchmark](https://github.com/lechmazur/generalization), [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing), [LLM Confabulation/Hallucination Benchmark](https://github.com/lechmazur/confabulations/), [NYT Connections Benchmark](https://github.com/lechmazur/nyt-connections/), [LLM Deceptiveness and Gullibility Benchmark](https://github.com/lechmazur/deception/)
+
 
